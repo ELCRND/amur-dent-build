@@ -6,6 +6,8 @@
   <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>amur-dent</title>
+  <meta name="description"
+    content="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis laudantium voluptates quod iusto eaque, facilis modi qui repudiandae harum impedit vel, expedita suscipit deserunt praesentium obcaecati maiores similique doloremque temporibus at consectetur necessitatibus aliquid, laborum aspernatur. Itaque, doloribus dolorem? Reiciendis minus repellat, nostrum sit, quod repellendus aperiam deserunt consectetur numquam doloribus eum iusto eos nesciunt. Laborum nemo blanditiis rerum, culpa, incidunt, fugiat officiis rem quod animi ratione maxime dignissimos similique? Perspiciatis porro magni illum quam, dicta odio culpa nulla deleniti et, veniam ipsum fugiat consectetur labore ullam architecto debitis optio, provident sunt. Ducimus ab obcaecati facilis, numquam reiciendis exercitationem dolorum facere cumque unde soluta distinctio iure consectetur quos id, qui corrupti." />
 
   <script type="module" crossorigin src="./assets/main.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/main.css">
@@ -215,7 +217,8 @@
               <source media="(max-width: 480px)" srcset="images/hero/hero-lines-mobile.svg">
               <source media="(max-width: 1024px)" srcset="images/hero/hero-lines-tablet.svg">
 
-              <img src="./images/hero/hero-lines.svg" alt="" aria-hidden="true" width="1760" height="920">
+              <img src="./images/hero/hero-lines.svg" alt="" aria-hidden="true" width="1760" height="920"
+                fetchpriority="high">
             </picture>
           </div>
 
@@ -1198,10 +1201,10 @@
         <div class="appointment__content">
 
           <picture class="appointment__image">
-            <source src="./images/appointment/appointment-img-tablet.avif" media="(max-width: 768px)" type="image/avif"
-              width="440" height="360">
+            <source srcset="images/appointment/appointment-img-tablet.avif" media="(max-width: 768px)"
+              type="image/avif" width="440" height="360">
 
-            <source src="./images/appointment/appointment-img.avif" type="image/avif">
+            <source srcset="images/appointment/appointment-img.avif" type="image/avif">
 
             <img src="./images/appointment/appointment-img.png" alt="Записаться на приём" width="1075" height="831"
               loading="lazy" draggable="false" data-anim="fade-left" data-delay="0.4s">
